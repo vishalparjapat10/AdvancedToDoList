@@ -27,6 +27,9 @@ body{
     align-items: center;
 
 }
+.toolbox-color-cont>*:hover,.action-btn-cont>*:hover{
+    background-color: #485460;
+}
 .action-btn-cont{
     height: 3.5rem;
     width: 7rem;
@@ -40,6 +43,12 @@ body{
 .action-btn-cont>*{
     font-size: 2rem;
     color: #d1d8e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
 }
 .color{
     height: 1.5rem;
@@ -57,4 +66,37 @@ body{
 }
 .black{
     background-color: black;
+}
+.modal-cont{
+    display: flex;
+    height: 50vh;
+    width: 45vw;
+    background-color: lightblue;
+    position: absolute;
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+}
+
+textarea{
+    height: 100%;
+    width: 75%;
+    background-color: #dfe4ea;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    resize: none; /*so that textarea can't be streched */
+}
+
+.priority-color-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    background-color: #4b4b4b;
+}
+.priority-color{
+    height: 10%;
+    width: 38%;
 }
