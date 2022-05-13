@@ -68,7 +68,7 @@ body{
     background-color: black;
 }
 .modal-cont{
-    display: flex;
+    display: none;
     height: 50vh;
     width: 45vw;
     background-color: lightblue;
@@ -99,4 +99,12 @@ textarea{
 .priority-color{
     height: 10%;
     width: 38%;
+}
+
+.active{
+    border: 5px solid red;
+}
+
+.main-cont{
+    display: flex;
 }
